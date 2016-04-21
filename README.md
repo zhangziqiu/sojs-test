@@ -1,14 +1,16 @@
 # Sojs test framework
 ===================================
 sojs 测试框架. 提供以下功能:
-> 单元测试
-> 性能测试
-> 代码覆盖率测试.
+* 单元测试
+* 性能测试
+* 代码覆盖率测试.
 
 ## 单元测试:
 单元测试使用 mocha 模块支持.
 
 ### 建立单元测试用例
+(参见 sojs-test/unit/demo.unit.js)
+
 1. 在项目根目录下, 建立文件夹 test/unit
 2. 在 test/unit 文件夹中, 建立以".unit.js"结尾的单元测试用例文件,比如: demo.unit.js
 3. 编写测试用例:
@@ -48,6 +50,8 @@ describe('===== unit-test-demo =====', function () {
 ```
 
 ### 创建辅助工具
+(参见 sojs-test/tool/unit.js)
+
 1. 在项目的任意位置建立js文件, 比如 [项目根目录]/tool/unit.js
 2. 编写如下代码:
 
@@ -93,6 +97,8 @@ node .\tool\unit.js
 代码覆盖率不需要编写任何代码, 会生成基于"单元测试"的测试用例的代码覆盖率.
 
 ### 创建辅助工具
+(参见 sojs-test/tool/coverage.js)
+
 1. 在项目的任意位置建立js文件, 比如 [项目根目录]/tool/coverage.js
 2. 编写如下代码:
 
@@ -137,6 +143,8 @@ node .\tool\coverage.js
 单元测试使用 benchmark 模块支持.
 
 ### 建立性能测试用例
+(参见 sojs-test/test/benchmark/demo.benchmark.js)
+
 1. 在项目根目录下, 建立文件夹 test/benchmark
 2. 在 test/benchmark 文件夹中, 建立以".benchmark.js"结尾的单元测试用例文件,比如: demo.benchmark.js
 3. 编写测试用例:
@@ -174,6 +182,8 @@ sojs.define({
 ```
 
 ### 创建辅助工具
+(参见 sojs-test/tool/benchmark.js)
+
 1. 在项目的任意位置建立js文件, 比如 [项目根目录]/tool/benchmark.js
 2. 编写如下代码:
 
