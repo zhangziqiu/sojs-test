@@ -1,4 +1,4 @@
-# Sojs test framework
+# Sojs Test Framework
 ===================================
 sojs 测试框架. 提供以下功能:
 * 单元测试
