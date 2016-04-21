@@ -1,0 +1,33 @@
+{
+  "name": "sojs-test",
+  "version": "0.0.8",
+  "description": " Sojs test framework",
+  "homepage": "http://www.develop.cc",
+  "license": "BSD-2-Clause",
+  "author": {
+    "name": "zhangziqiu",
+    "email": "zhangziqiu@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "zhangziqiu",
+      "email": "zhangziqiu@qq.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangziqiu/sojs-test.git"
+  },
+  "main": "./src/module.js",
+  "dependencies": {
+    "sojs": "*",
+    "benchmark": "^1.0.0",
+    "mocha": "^2.0.0",
+    "uglify-js": "^2.0.0",
+    "istanbul": "^0.3.22"
+  },
+  "devDependencies": {}
+}
